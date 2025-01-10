@@ -1,0 +1,62 @@
+{
+  // Theme
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "windsurf.enableSupercomplete": true,
+  "windsurf.cascadeOpenOnReload": false,
+  // Path Intellisense
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.ignoreTsConfigBaseUrl": true,
+  "path-intellisense.showHiddenFiles": true,
+
+  // Fonts
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // Editor
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+
+  // Editor appearance
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+
+  // Terminals
+  "terminal.integrated.fontSize": 16,
+  "workbench.startupEditor": "none",
+
+  // Formatters
+  "editor.formatOnSave": true,
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "javascript",
+    "typescriptreact": "javascript",
+    "django-html": "html"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "**/views/**/*.html": "django-html",
+    "*.tpl": "django-html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // Prisma
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  "color-highlight.markerType": "dot-before",
+  "color-highlight.useARGB": true,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+
+  // Icons
+  "workbench.iconTheme": "vscode-icons"
+}
