@@ -1,38 +1,40 @@
 {
-  // Theme
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "windsurf.enableSupercomplete": true,
-  "windsurf.cascadeOpenOnReload": false,
-  // Path Intellisense
-  "path-intellisense.autoSlashAfterDirectory": true,
-  "path-intellisense.extensionOnImport": true,
-  "path-intellisense.ignoreTsConfigBaseUrl": true,
-  "path-intellisense.showHiddenFiles": true,
+  // Set the default terminal profile to PowerShell on Windows
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
 
-  // Fonts
+  // Editor font settings
   "editor.fontSize": 18,
   "editor.fontFamily": "Fira Code",
   "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  // Editor
+
+  // Enable linked editing of HTML tags
   "editor.linkedEditing": true,
+
+  // Set the default formatter to Prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": true,
 
-  // Editor appearance
+  // Cursor settings
   "editor.cursorSurroundingLines": 15,
   "editor.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
 
-  // Terminals
+  // Set the icon theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Terminal font size
   "terminal.integrated.fontSize": 16,
+
+  // Disable the startup editor
   "workbench.startupEditor": "none",
 
-  // Formatters
+  // Format on save
   "editor.formatOnSave": true,
 
-  // Emmet
+  // Emmet settings for various languages
   "emmet.includeLanguages": {
     "javascript": "javascript",
     "javascriptreact": "javascript",
@@ -40,23 +42,38 @@
     "typescriptreact": "javascript",
     "django-html": "html"
   },
+
+  // File associations
   "files.associations": {
     "*.css": "tailwindcss",
     "**/views/**/*.html": "django-html",
     "*.tpl": "django-html"
   },
+
+  // Enable quick suggestions for strings
   "editor.quickSuggestions": {
     "strings": true
   },
-  // Prisma
+
+  // Prisma settings
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
   },
+
+  // Color highlight settings
   "color-highlight.markerType": "dot-before",
   "color-highlight.useARGB": true,
+
+  // Auto rename tag settings
   "auto-rename-tag.activationOnLanguage": ["*"],
 
-  // Icons
-  "workbench.iconTheme": "vscode-icons"
+  // Enable word wrap
+  "editor.wordWrap": "on",
+
+  // Set the color theme
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+
+  // Enable smooth scrolling
+  "editor.smoothScrolling": true
 }
